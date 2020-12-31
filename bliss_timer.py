@@ -1,5 +1,6 @@
 # need to have ffmpeg installed
 # only works with files that are exported at a 44.1k sample rate & a bit depth of 16
+# build v1, next looking to make timer that includes seconds.
 
 import time
 from pydub import AudioSegment
