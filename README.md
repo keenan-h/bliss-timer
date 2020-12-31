@@ -1,0 +1,1 @@
+This is a work in progress alarm I'm making that will play new age vibe synth sounds when the time runs out. A gentler alternative for when you are working and want to be gently reminded to take a break.
