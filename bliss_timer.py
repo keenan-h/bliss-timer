@@ -1,6 +1,18 @@
-# need to have ffmpeg installed
-# only works with files that are exported at a 44.1k sample rate & a bit depth of 16
-# build v1, next looking to make timer that includes seconds.
+#                                              ___           ___
+#     _____                      ___          /  /\         /  /\
+#    /  /::\                    /  /\        /  /:/_       /  /:/_
+#   /  /:/\:\    ___     ___   /  /:/       /  /:/ /\     /  /:/ /\
+#  /  /:/~/::\  /__/\   /  /\ /__/::\      /  /:/ /::\   /  /:/ /::\
+# /__/:/ /:/\:| \  \:\ /  /:/ \__\/\:\__  /__/:/ /:/\:\ /__/:/ /:/\:\
+# \  \:\/:/~/:/  \  \:\  /:/     \  \:\/\ \  \:\/:/~/:/ \  \:\/:/~/:/
+#  \  \::/ /:/    \  \:\/:/       \__\::/  \  \::/ /:/   \  \::/ /:/
+#   \  \:\/:/      \  \::/        /__/:/    \__\/ /:/     \__\/ /:/
+#    \  \::/        \__\/         \__\/       /__/:/        /__/:/
+#     \__\/                                   \__\/         \__\/
+#
+#       a timer with peaceful alarm
+#       code and sounds by: Keenan Hurley
+#
 
 import time
 from pydub import AudioSegment
@@ -22,5 +34,5 @@ print(str(minutes) + " minute left.\n")
 time.sleep(60)
 
 sound = AudioSegment.from_file("./sounds/alarmsound1_44_16_mono.wav", format="wav")
-quieter_sound = sound - 5
-play(quieter_sound)
+modified__level_sound = sound - 5
+play(modified__level_sound)
