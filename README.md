@@ -1,6 +1,5 @@
 # Bliss Timer
 
-## About
 Many of the timers I would use while I was working I found were a little too busy for my purposes and used very unpleasant sounds. So I built this command line timer that prompts you to enter how many minutes before the alarm, then plays a simple riff I recorded on my Casio MT-70 as a more light way to remind you of things. 
 
 ## Install
