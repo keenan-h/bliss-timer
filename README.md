@@ -18,11 +18,11 @@ Run the script from within the directory.
 ```
 python3 bliss_timer.py
 ```
-When prompted to enter how many minutes before the timer goes off, enter an integer. That's it!
+When prompted to enter how many minutes before the timer goes off, enter an integer. 
 
 ## Add Your Own Sounds
 You can easily add your own sounds for the program to trigger.
 
 New sounds will only work if the file has a 44.1k sample rate and a bit depth of 16.
 
-Just add file to `/sounds` and then in 'bliss_timer.py` change the line that selects the file to `./sounds/YOUR_FILE.wav`.
+Just add file to `/sounds` and then in `bliss_timer.py` change the line that selects the file to `./sounds/YOUR_FILE.wav`.
